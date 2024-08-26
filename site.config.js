@@ -1,13 +1,13 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "soulcarus.dev",
+    name: "icarus",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "tech lead | machine learning dev",
-    bio: "I'll update it soon.",
+    role: "tech lead | dev | data scientist",
+    bio: "mais acadêmico que técnico.",
     email: "joaoicaormoreira@gmail.com",
     linkedin: "joaoicaromoreira",
-    github: "soulcarusdev",
+    github: "soulcarus",
     instagram: "",
   },  
   projects: [
@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "SOULCARUS",
-    description: "bem vindo ao meu oasis!",
+    title: "Oasis do Ícarus",
+    description: "Bem vindo ao meu oasis!",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
@@ -69,7 +69,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 5, // revalidate time for [slug], index
+  revalidateTime: 1, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
