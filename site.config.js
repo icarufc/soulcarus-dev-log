@@ -12,19 +12,19 @@ const CONFIG = {
   },  
   projects: [
     {
-      name: `soulcarus-dev-log`,
-      href: "https://github.com/soulcarusdev/soulcarus-dev-log",
+      name: `morethan-log`,
+      href: "https://github.com/morethanmin/morethan-log",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "soulcarus-dev-log",
+    title: "SOULCARUS",
     description: "bem vindo ao meu oasis!",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://soulcarus-dev-log.vercel.app",
+  link: "https://morethan-log.vercel.app",
   since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
@@ -54,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
