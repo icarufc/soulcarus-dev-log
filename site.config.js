@@ -4,27 +4,27 @@ const CONFIG = {
     name: "icarus",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "tech lead | dev | data scientist",
-    bio: "mais acadêmico que técnico.",
-    email: "joaoicaormoreira@gmail.com",
+    bio: "escritor casual",
+    email: "joaoicaromoreira@gmail.com",
     linkedin: "joaoicaromoreira",
     github: "soulcarus",
     instagram: "",
   },  
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `soulcarus-dev-log`,
+      href: "https://github.com/soulcarus/soulcarus-dev-log",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "Oasis do Ícarus",
-    description: "Bem vindo ao meu oasis!",
+    title: "jornal do icarus",
+    description: "bem vindo ao meu oasis!",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://soulcarus-dev-log.vercel.app",
   since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
@@ -54,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
